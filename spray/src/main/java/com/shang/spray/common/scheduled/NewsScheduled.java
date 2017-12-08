@@ -27,7 +27,7 @@ import java.util.Date;
 @Component
 public class NewsScheduled {
 
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     @Autowired
     private NewsPipeline newsPipeline;
     @Autowired

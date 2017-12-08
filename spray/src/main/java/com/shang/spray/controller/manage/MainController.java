@@ -1,10 +1,10 @@
 package com.shang.spray.controller.manage;
 
-import com.shang.spray.controller.BaseController;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.shang.spray.controller.BaseController;
 
 /**
  * info:
